@@ -10,9 +10,9 @@ Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
 </filesMatch>
 
 # CACHE FONTS
-<filesMatch "\(icomoon).">
+<filesMatch "\font\icomoon.(eot|svg|ttf|woff)">
 <ifModule mod_expires.c>
-ExpiresDefault "access plus 1 week"
+ExpiresDefault "access plus 7 days"
 </ifModule>
 </filesMatch>
 
