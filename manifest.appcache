@@ -1,8 +1,9 @@
 CACHE MANIFEST
-# Time: Tue Aug 19 2014 14:37:29 GMT+0100 (W. Central Africa Standard Time)
+# Time: Tue Aug 19 2014 17:18:26 GMT+0100 (W. Central Africa Standard Time)
 
 CACHE:
 index.html
+js/masonry.min.js
 font/icomoon.eot
 font/icomoon.svg
 font/icomoon.ttf
