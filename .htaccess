@@ -2,7 +2,7 @@
 AddType text/cache-manifest .appcache
 
 # XYU.IO
-# Only use modified time and file size for ETags
+# Only use modified time and file size for ETags 
 FileETag MTime Size
 
 # Don't use ETags if mod_deflate is on (Apache bug)
