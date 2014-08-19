@@ -1,17 +1,8 @@
 CACHE MANIFEST
-# Time: Fri Jul 14 2004 15:40:38 GMT+0880 (W. Central Africa Standard Time)
+# Time: Tue Aug 19 2014 12:23:10 GMT+0100 (W. Central Africa Standard Time)
 
 CACHE:
 index.html
-css/style.css
-css/icon-font.css
-js/behavior.js
-js/masonry.min.js
-js/browserified.js
-font/icomoon.eot
-font/icomoon.woff
-font/icomoon.ttf
-font/icomoon.svg
 
 NETWORK:
 http://res.cloudinary.com
@@ -21,6 +12,3 @@ http://fathomless-atoll-7008.herokuapp.com
 
 FALLBACK:
 / index.html
-
-SETTINGS:
-fast
