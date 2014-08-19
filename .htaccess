@@ -1,6 +1,16 @@
 # MANIFEST HEADER
 AddType text/cache-manifest .appcache
 
+# XYU.IO
+# Only use modified time and file size for ETags
+FileETag MTime Size
+
+# Don't use ETags if mod_deflate is on (Apache bug)
+# https://issues.apache.org/bugzilla/show_bug.cgi?id=39727
+<IfModule mod_deflate.c>
+    FileETag None
+</IfModule>
+
 # ALWAYS REVALIDATE APPCACHE
 <filesMatch "\.(appcache)$">
 <ifModule mod_headers.c>
@@ -10,7 +20,7 @@ Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
 </filesMatch>
 
 # CACHE FONTS
-<filesMatch "\font\icomoon.(eot|svg|ttf|woff)">
+<filesMatch "\icomoon.(eot|svg|ttf|woff)">
 <ifModule mod_expires.c>
 ExpiresDefault "access plus 7 days"
 </ifModule>
