@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Time: Wed Aug 20 2014 10:00:40 GMT+0100 (W. Central Africa Standard Time)
+# Time: Wed Aug 20 2014 19:48:09 GMT+0100 (W. Central Africa Standard Time)
 
 CACHE:
 index.html
@@ -12,7 +12,6 @@ font/icomoon.woff
 NETWORK:
 http://res.cloudinary.com
 http://www.google-analytics.com
-http://pricingapp.designbymobi.us
 http://fathomless-atoll-7008.herokuapp.com
 
 FALLBACK:
